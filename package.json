@@ -1,0 +1,27 @@
+{
+  "name": "ajax-caching",
+  "version": "0.0.1",
+  "description": "ajax caching",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/*.js -t 30s",
+    "coverage": "nyc --reporter=html --reporter=text mocha test/*.js -t 30s"
+  },
+  "keywords": [
+    "cache",
+    "ajax"
+  ],
+  "author": "alincode <alincode@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kv-idb": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-fetch": "^3.0.0",
+    "fake-indexeddb": "^2.0.4",
+    "mocha": "^5.2.0",
+    "mock-browser": "^0.92.14",
+    "nyc": "^13.1.0"
+  }
+}
