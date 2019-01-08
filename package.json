@@ -16,6 +16,14 @@
   ],
   "author": "alincode <alincode@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alincode/ajax-caching.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alincode/ajax-caching/issues"
+  },
+  "homepage": "https://github.com/alincode/ajax-caching#readme",
   "dependencies": {
     "kv-idb": "^1.1.0"
   },
