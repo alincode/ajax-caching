@@ -1,3 +1,3 @@
 module.exports = {
-  promiseAjax: require('./promiseAjax')
-};
+  promiseAjax: require('./promiseAjax'),
+}
