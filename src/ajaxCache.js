@@ -13,7 +13,7 @@ function ajaxcache(opts, done) {
   // console.log(url);
   let { transform, caching } = opts
   let lastModified
-  if (window.localStorage[url] && caching) {
+  if (window && window.localStorage[url] && caching) {
     fetch(url, { method: 'HEAD' })
       .then(response => {
         if (!response.ok) done(response)
